@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+ul {
+  list-style-type: none;
+}
+
+dialog {
+  position: absolute;
+  box-shadow: 0 8px 6px -6px black;
+  background-color: #000000;
+  top:50%;
+  left: 50%;
+  margin-left: -400px;
+  margin-top: -40px;
+}
+
+.directionBtn {
+  background-color: #4CAF50;
+  border: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  margin-bottom: 8px;
+}
+
+.sortBtn {
+  margin-left: 8px;
+  background-color: #4CAF50;
+  border: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  margin-bottom: 8px;
+}
+
+.loginBtn {
+  background-color: #4CAF50;
+  border: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  display: inline-block;
+  font-size: 50px;
+  border-radius: 12px;
+  margin-bottom: 8px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.filterBtn {
+  margin-left: 8px;
+  background-color: #4CAF50;
+  border: 0;
+  width: 300px;
+  height: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.textBox {
+  width: 300px;
+  height: 20px;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 12px;
+}
+
+li {
+  text-align: center;
+  padding-right: 32px;
+}
+
+.autoList {
+  background-color: #ffffff;
+  width: 270px;
+  margin-left: 37.7%;
+  margin-top: 2px;
+  border-radius: 12px;
+  border-style: solid;
+  color: #000000;
+}
+
+.autoListBullet {
+  border-style: solid;
+  color: #000000;
+  margin-left: -40px;
+  padding: 10px;
+}
